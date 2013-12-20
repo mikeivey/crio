@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Crio</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <title>Community Rewards | powered by Modern Message</title>
+  <%= stylesheet_link_tag  'pages' %>
+  <%= stylesheet_link_tag  'bootstrap' %>
+  <%= stylesheet_link_tag  'animations' %>
+  <%= stylesheet_link_tag  'bootstrap-responsive' %>
+  <%= stylesheet_link_tag  'icon-font' %>
+  <%= stylesheet_link_tag  'flat-ui' %>
   <%= csrf_meta_tags %>
-</head>
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="../../flat-ui/js/html5shiv.js"></script>
+	<![endif]-->
+    
+   <!-- Placed at the end of the document so the pages load faster -->
+ 
+    <!--[if lt IE 8]>
+    <script src="../../flat-ui/js/icon-font-ie7.js"></script>
+    <![endif]-->
+    
 <body>
 
 <%= yield %>
+
+<%= javascript_include_tag 'application' %>
 
 </body>
 </html>
