@@ -21,6 +21,7 @@ module Crio
     # config.i18n.default_locale = :de
 
     # Required for Heroku
+    config.serve_static_assets = true
     
   end
 end
