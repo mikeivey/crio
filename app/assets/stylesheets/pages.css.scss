@@ -1034,7 +1034,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Promotional Flyer */
 #promo-footer  {
-  background-image: image-url('bg1.jpg');
+  background-image: image-url('https://s3.amazonaws.com/modernmsg/CR.me/bg1.jpg');
   .promo-footer {
     padding: 75px 0 50px;
     p span {
@@ -1045,7 +1045,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #promotions { 
-  background-image: image-url('/assets/bg1.jpg');
+  background-image: image-url('https://s3.amazonaws.com/modernmsg/CR.me/bg1.jpg');
   padding-bottom: 100px;
 }
 
@@ -1106,21 +1106,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #features {
-  background-image: image-url('/assets/bg1.jpg');
+  background-image: image-url('https://s3.amazonaws.com/modernmsg/CR.me/bg1.jpg');
    .feature {
       padding: 0 5% 0 28%;
       min-height: 200px;
       &.first {
-        background: image-url("Logos/feature1.png") no-repeat;
+        background: image-url("https://s3.amazonaws.com/modernmsg/CR.me/feature1.png") no-repeat;
       }
       &.second {
-        background: image-url("Logos/feature2.png") no-repeat;
+        background: image-url("https://s3.amazonaws.com/modernmsg/CR.me/feature2.png") no-repeat;
       }
       &.third {
-        background: image-url("Logos/feature3.png") no-repeat;
+        background: image-url("https://s3.amazonaws.com/modernmsg/CR.me/feature3.png") no-repeat;
       }
       &.fourth {
-        background: image-url("Logos/feature4.png") no-repeat;
+        background: image-url("https://s3.amazonaws.com/modernmsg/CR.me/feature4.png") no-repeat;
       }
       h2 {
         font-size: 35px;
